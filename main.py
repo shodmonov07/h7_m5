@@ -1,5 +1,5 @@
 class Fibonacci:
-    def __init__(self, max_value=100):
+    def __init__(self, max_value: int):
         self.max_value = max_value
 
     def __iter__(self):
@@ -20,7 +20,7 @@ class Fibonacci:
                 f.write(f"{number}\n")
 
 
-fib = Fibonacci(100)
+fib = Fibonacci(77)
 
 for num in fib:
     print(num)
